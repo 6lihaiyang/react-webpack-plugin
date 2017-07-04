@@ -24,7 +24,7 @@
 
 其他的，以后有时间再补充。
 
-
+列出部分依赖方便更新：npm i -D babel-core babel-loader babel-plugin-react-html-attrs babel-preset-env babel-preset-react cross-env css-loader extract-text-webpack-plugin file-loader html-webpack-plugin open-browser-webpack-plugin rimraf style-loader uglifyjs-webpack-plugin webpack webpack-dev-server webpack-notifier
 
 
 
