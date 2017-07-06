@@ -76,13 +76,7 @@ module.exports = {
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
-      minChunks: function (module) {
-        if(module.resource && (/^.*\.(css|scss|less)$/).test(module.resource)) {
-            return false;
-        }
-        return module.context && module.context.indexOf("node_modules") !== -1;
-      }
-    }),
+      minChunks: Infinity,
     new webpack.ProvidePlugin({
         React: 'react',
         ReactDOM: 'react-dom',
